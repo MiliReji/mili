@@ -382,3 +382,23 @@ body {
   25% { transform: translateX(-4px) rotate(-1deg); }
   75% { transform: translateX(4px) rotate(1deg); }
 }
+
+
+.photo-card img {
+  width: 100%;
+  height: auto;              /* ← let it size to the photo */
+  aspect-ratio: 3 / 4;       /* ← optional: uniform portrait shape */
+  object-fit: contain;       /* ← shows the whole image */
+  object-position: center;
+  display: block;
+  background: #f8f8f8;       /* fills gaps if photo isn't 3:4 */
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .photo-card img {
+    aspect-ratio: auto;      /* let it flow naturally on phones */
+    height: auto;
+    object-fit: contain;
+  }
+}
