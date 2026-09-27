@@ -1,8 +1,8 @@
 // Import her photos here — add as many as you want
-import pic1 from "../assets/mili1.jpg";
-import pic2 from "../assets/mili2.jpg";
-import pic3 from "../assets/mili3.jpg";
-import pic4 from "../assets/mili4.jpg";
+import pic1 from "../assets/Mili1.jpg";
+import pic2 from "../assets/Mili2.jpg";
+import pic3 from "../assets/Mili3.jpg";
+import pic4 from "../assets/Mili4.jpg";
 
 const photos = [
   { src: pic1, caption: "Always glowing ✨" },
