@@ -345,6 +345,37 @@ body {
   animation: shake 0.5s ease infinite;
   text-transform: uppercase;
 }
+.secret-gif {
+  display: block;
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border: 4px solid white;
+  object-fit: contain;
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .secret-gif {
+    width: 100%;
+    max-width: 320px;
+    border-width: 3px;
+    border-radius: 16px;
+  }
+
+  .secret-reveal {
+    padding: 0 1rem;
+  }
+
+  .shame-text {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+  }
+}
 
 @keyframes shake {
   0%, 100% { transform: translateX(0) rotate(0deg); }
