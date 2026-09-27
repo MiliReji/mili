@@ -32,7 +32,7 @@ function Message() {
           </p>
           <p className="signature">
             With love, <br />
-            Your friend 💖
+            Ralph 💖
           </p>
         </div>
       )}
